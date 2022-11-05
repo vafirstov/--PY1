@@ -1,6 +1,6 @@
-dict_ = {}
 def get_count_char(str_):
-    str_ = "".join(str_.lower().split())
+   dict_ = {}
+   str_ = "".join(str_.lower().split())
     for letter in str_:
         if letter.isalpha():
             if letter in dict_:
